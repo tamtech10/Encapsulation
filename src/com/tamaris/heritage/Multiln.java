@@ -20,7 +20,7 @@ interface Coder{ //ovde samo deklarisemo metode, isto je sto i klasa
     void  coding();
 }
 
-interface Dancer{
+interface Dancer{ //koristi se puno za bases de donne
     void dancing();
 }
 

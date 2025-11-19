@@ -1,6 +1,6 @@
 package com.tamaris;
 
-import com.tamaris.library.Book;
+import com.tamaris.encapsulation.library.Book;
 
 public class Main {
 

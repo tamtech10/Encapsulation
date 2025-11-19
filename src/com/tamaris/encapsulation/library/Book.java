@@ -1,4 +1,4 @@
-package com.tamaris.library;
+package com.tamaris.encapsulation.library;
 
 public class Book {
 

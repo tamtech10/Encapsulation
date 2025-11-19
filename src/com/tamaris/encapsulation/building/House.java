@@ -1,6 +1,6 @@
-package com.tamaris.building;
+package com.tamaris.encapsulation.building;
 
-import com.tamaris.library.Book;
+import com.tamaris.encapsulation.library.Book;
 
 public class House {
 
@@ -12,7 +12,7 @@ public class House {
         book.titre = "New Book";
 
         //Protected Method en attribute
-        //ako su u razlicitom package, za rec protected ne mozemo da pozovemo ako nemamo heritage
+        //ako su u razlicitom package, za rec protected ne mozemo da pozovemo ako nemamo com.tamaris.heritage
         //book.author = "Frank";
         //book.modifyBook();// can not access to protected
 

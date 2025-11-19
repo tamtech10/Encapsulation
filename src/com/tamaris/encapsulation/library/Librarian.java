@@ -1,4 +1,4 @@
-package com.tamaris.library;
+package com.tamaris.encapsulation.library;
 
 public class Librarian {
 
@@ -9,7 +9,7 @@ public class Librarian {
         book.printBook();
         book.titre = "New Book";
 
-        //Protected Method en attribute (ako nemamo heritage onda moramo da pozovemo objekat)
+        //Protected Method en attribute (ako nemamo com.tamaris.heritage onda moramo da pozovemo objekat)
         book.author = "Frank";
         book.modifyBook();
 

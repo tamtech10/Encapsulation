@@ -18,10 +18,6 @@ public class Vehicles {
         System.out.println(brand + " (" + color + ") is starting.");
     }
 
-    public void stop() {
-        System.out.println(brand + " is stopping...");
-    }
-
     public void accelerate(double value) {
         speed += value;
         System.out.println(brand + " accelerated to " + speed + " km/h.");
